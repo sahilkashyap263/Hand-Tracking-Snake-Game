@@ -1,9 +1,18 @@
 # Hand-Controlled Snake Game 🐍✋
-
 Control a snake using your hand gestures! Move your index finger to guide the snake, collect donuts, and beat your high score.
 
-## ✨ Features
+## 📸 Screenshots
 
+### Start Screen
+![alt text](image.png)
+
+### Gameplay
+![alt text](image-1.png)
+
+### Game Over
+![alt text](image-2.png)
+
+## ✨ Features
 - **Hand Gesture Control**: Use your index finger to control the snake
 - **High Score Tracking**: Your best score is saved automatically
 - **Smooth Gameplay**: Optimized for 60 FPS performance
@@ -11,7 +20,6 @@ Control a snake using your hand gestures! Move your index finger to guide the sn
 - **Fullscreen Mode**: Immersive gameplay experience
 
 ## 📋 Requirements
-
 ```bash
 opencv-python
 cvzone
@@ -19,7 +27,6 @@ numpy
 ```
 
 ## 🚀 Quick Start
-
 1. **Install dependencies**
 ```bash
 pip install opencv-python cvzone numpy
@@ -34,7 +41,6 @@ python snake_game.py
 ```
 
 ## 🎮 How to Play
-
 - **Move**: Use your index finger to control the snake
 - **Goal**: Collect donuts to grow and score points
 - **Avoid**: Hitting the boundaries or yourself
@@ -60,23 +66,23 @@ python snake_game.py
 - Reduce screen resolution in code if needed
 
 ## 📁 Files
-
 ```
 ├── snake_game.py           # Main game file
 ├── Donut.jpg               # Food image
 ├── snake_highscore.json    # High score (auto-generated)
+├── screenshot_start.png    # Start screen image
+├── screenshot_gameplay.png # Gameplay image
+├── screenshot_gameover.png # Game over image
 └── README.md
 ```
 
 ## 🎯 Tips
-
 - Make smooth, gradual movements for better control
 - Play in a well-lit area
 - Watch the boundary box to avoid collisions
 - The snake gets harder to control as it grows longer!
 
 ## 🤝 Contributing
-
 Ideas for improvement:
 - Multiple difficulty levels
 - Power-ups and obstacles
@@ -85,17 +91,14 @@ Ideas for improvement:
 - Custom themes
 
 ## 📝 License
-
 MIT License - feel free to use and modify!
 
 ## 🙏 Credits
-
 - **CVZone** - Computer vision library
 - **OpenCV** - Image processing
 - **MediaPipe** - Hand tracking
 
 ---
-
 **Enjoy the game! 🎉 Beat your high score!**
 
 Star ⭐ this repo if you like it!
